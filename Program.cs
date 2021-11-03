@@ -13,7 +13,7 @@ namespace genericCode
             Console.WriteLine("3. To get max (char)");
             Console.WriteLine("4. To get max (string)");
             Console.WriteLine("5. To get max (generic<int>) using IComparable");
-            Console.WriteLine("6. To get max  using generic class");
+            Console.WriteLine("6. To get max from 5 inputs using generic class");
 
             Console.WriteLine("7. To print array (int,float and char)");
             Console.WriteLine("8. To print array (int,float and char) using generic in function");

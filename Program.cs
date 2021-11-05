@@ -67,10 +67,16 @@ namespace genericCode
                     arrayGeneric.toPrint<char>(charArray);
                     break;
                 case 9:
-                    new arrayGenericClass<int>(intArray).toPrint();
+                     /* new arrayGenericClass<int>(intArray).toPrint();
                     new arrayGenericClass<double>(doubleArray).toPrint();
                     new arrayGenericClass<char>(charArray).toPrint();
+*/
+
+                    int[] arr = { 112, 23, 445, 23, 12, 344, 443 };
+                    arrayGenericClass<int> generic = new arrayGenericClass<int>(arr);
+                    generic.PrintMax();
                     break;
+                    
 
                 default:
                     Console.WriteLine("invalid choice");
